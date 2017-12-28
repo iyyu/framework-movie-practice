@@ -1,0 +1,54 @@
+body { 
+    display: block;
+    margin: 200px;
+    font-family: Arial;
+}
+
+.navbar {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.navbar img {
+  height: 40px;
+  width: 50px;
+}
+
+.search-bar .add-bar {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.search-form .add-form {
+  border-radius: 2px;
+  width: 80%
+}
+.search-button .add-button {
+  border-radius: 2px;
+  border-color: #d3d3d3;
+  background: #f8f8f8;
+  width: 20%;
+  margin-left: -1px;
+}
+
+.search-button:hover {
+  border-color: #c6c6c6;
+  background: #f0f0f0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+
+.movie {
+  margin: 10px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-color: grey;
+}
+
+.movie-list {
+  border-radius: 50px;
+}
